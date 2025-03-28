@@ -485,8 +485,6 @@ img{
 .footer {
     background-color: #2E2F42;
     padding: 100px 0;
-
-
 }
 
 .link-logo-footer{
@@ -525,14 +523,19 @@ img{
 
 .footer-section{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     gap: 120px;
-    max-width: fit-content;
-    margin: 0 auto;
+    max-width: 1158px;
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    
 }
 
 
 .social-footer {
+    display: flex;
+    flex-direction: column;
     width: 208px;
 }
 
@@ -545,11 +548,13 @@ img{
     color: #fff;
 }
 
-.social-item {}
+.social-item {
+}
 
 .link-footer{
-    width: 24px;
     height: 24px;
+    width: 24px;
+
 }
 
 .social-link.link-footer{
