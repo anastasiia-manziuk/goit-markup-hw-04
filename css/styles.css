@@ -545,7 +545,19 @@ img{
     color: #fff;
 }
 
+.social-item {}
 
+.social-link {}
+
+.social-link.link-footer{
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link.link-footer:hover::before{
+    background-color:#31d0aa;
+}
+
+.social-icon {}
 
 
 /*---------FOOTER-----*/
