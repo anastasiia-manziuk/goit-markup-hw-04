@@ -547,7 +547,10 @@ img{
 
 .social-item {}
 
-.social-link {}
+.link-footer{
+    width: 24px;
+    height: 24px;
+}
 
 .social-link.link-footer{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
