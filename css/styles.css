@@ -523,7 +523,7 @@ img{
 
 .footer-section{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 120px;
     max-width: 1158px;
     width: 100%;
