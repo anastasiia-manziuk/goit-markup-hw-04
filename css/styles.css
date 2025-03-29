@@ -155,7 +155,7 @@ img{
     background-position: center;
     background-size: cover;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)) url(/images/peopleoffice.jpg);
+        rgba(46, 47, 66, 0.7)),url(/images/peopleoffice.jpg);
     box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.25);
         
     
@@ -515,6 +515,7 @@ img{
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
+    margin-right: 120px
 
 }
 
@@ -585,9 +586,9 @@ img{
 .social-item.social-item-footer{
 }
 
-.link-footer{
-    height: 24px;
-    width: 24px;
+.social-link.link-footer{
+    height: 100%;
+    width: 100%;
 
 }
 
@@ -598,6 +599,11 @@ img{
 .social-link.link-footer:hover::before,
 .social-link.link-footer:focus::before{
     background-color:#31d0aa;
+}
+
+.social-link.link-footer:hover,
+.social-link.link-footer:focus{
+    background-color: #31d0aa;
 }
 
 .social-icon {}
