@@ -510,7 +510,7 @@ img{
 .footer-section {
     display: flex;
     align-items: baseline;
-    gap: 120px;
+    /*gap: 120px;*/
     max-width: 1158px;
     width: 100%;
     padding-left: 15px;
