@@ -515,14 +515,15 @@ img{
     width: 100%;
     padding-left: 15px;
     padding-right: 15px;
-    margin-right: 120px
+    /*margin-right: 120px*/
 
 }
 
-/*.container.container-footer{
+.container.container-footer{
+    margin: 0 auto;
     margin-right: 120px
 }
-*/
+
 
 .link-logo-footer{
     font-family: 'Raleway', sans-serif;
