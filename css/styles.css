@@ -382,6 +382,11 @@ img{
 }
 
 
+.social-link:hover,
+.social-link:focus{
+    background-color: #404bbf;
+}
+
 
 .social-icon{
     fill: #F4F4FD;
