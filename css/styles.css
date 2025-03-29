@@ -510,6 +510,7 @@ img{
 .footer-section {
     display: flex;
     align-items: baseline;
+    justify-content: flex-start;
     /*gap: 120px;*/
     max-width: 1158px;
     width: 100%;
@@ -521,7 +522,7 @@ img{
 }
 
 .container.container-footer{
-    margin-right: 120px
+    margin-right: 120px;
 }
 
 
