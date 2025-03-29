@@ -155,7 +155,7 @@ img{
     background-position: center;
     background-size: cover;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),url(/images/peopleoffice.jpg);
+        rgba(46, 47, 66, 0.7)), url(/images/peopleoffice.jpg);
     box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.25);
         
     
@@ -503,6 +503,7 @@ img{
 /*---------FOOTER-----*/
 
 .footer {
+    display: flex;
     background-color: #2E2F42;
     padding: 100px 0;
 }
