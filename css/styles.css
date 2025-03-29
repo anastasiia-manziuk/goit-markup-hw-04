@@ -316,7 +316,7 @@ img{
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    transition: translateY 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
     }
 
@@ -339,8 +339,11 @@ img{
 
 .social-list {
     display: flex;
-    gap: 24px;
     justify-content: center;
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+    
 }
 
 .social-item {
@@ -351,6 +354,11 @@ img{
     width:40px;
     height:40px;
 
+}
+
+.social-link{
+    width: 40px;
+    height: 40px;
 }
 
 .social-link::before {
@@ -364,7 +372,11 @@ img{
     left: 0;
     z-index: 0;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.social-link:hover,
+.social-link:focus {
+    background-color: #404bbf;
 }
 
 
@@ -372,8 +384,9 @@ img{
 .social-icon{
     fill: #F4F4FD;
     position: relative;
+    width: 16px;
+    height: 16px;
     
-
 }
 
 
